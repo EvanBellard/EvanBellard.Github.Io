@@ -38,12 +38,13 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-createPlatform(600,650,20,20)
-createPlatform(600,530,20,20)
-createPlatform(600,410,20,20)
-createPlatform(600,290,20,20)
-createPlatform(600,170,20,20)
-createPlatform(500,170,100,20)
+createPlatform(600,650,100,20)
+createPlatform(600,530,100,20)
+createPlatform(600,410,100,20)
+createPlatform(600,290,100,20)
+createPlatform(600,170,100,20)
+createPlatform(0,625,250,20)
+createPlatform(1040,290,100,20)
 
     
     // TODO 2
@@ -51,8 +52,10 @@ createPlatform(500,170,100,20)
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
-
+    createCollectable("max",600,130)
+    createCollectable("grace",0,700)
+    createCollectable("kennedi",300,10,0,0)
+    createCollectable
 
     
     // TODO 3
@@ -60,6 +63,26 @@ createPlatform(500,170,100,20)
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
+createCannon("right",100,25000)
+createCannon("right",150,25000)
+createCannon("right",200,25000)
+createCannon("right",250,25000)
+createCannon("right",300,25000)
+createCannon("right",350,25000)
+createCannon("right",400,25000)
+createCannon("right",450,25000)
+createCannon("right",500,25000)
+createCannon("right",550,25000)
+createCannon("right",600,25000)
+createCannon("right",650,25000)
+createCannon("right",700,25000)
+createCannon("right",750,25000)
+createCannon("right",800,25000)
+createCannon("right",850,25000)
+createCannon("right",900,25000)
+
+
+
 
 
 
