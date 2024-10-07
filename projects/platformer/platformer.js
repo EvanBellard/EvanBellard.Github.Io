@@ -44,7 +44,12 @@ createPlatform(600,410,100,20)
 createPlatform(600,290,100,20)
 createPlatform(600,170,100,20)
 createPlatform(0,625,250,20)
-createPlatform(1040,290,100,20)
+createPlatform(1030,290,100,20)
+createPlatform(400,170,1,1)
+createPlatform(850,350,5,1000)
+createPlatform(1100,550,100,10)
+createPlatform(950,450,100,10)
+createPlatform(950,650,100,10)
 
     
     // TODO 2
@@ -55,7 +60,8 @@ createPlatform(1040,290,100,20)
     createCollectable("max",600,130)
     createCollectable("grace",0,700)
     createCollectable("kennedi",300,10,0,0)
-    createCollectable
+    createCollectable("diamond",1080,250,0,0)
+    createCollectable("steve",1080,700)
 
     
     // TODO 3
@@ -63,24 +69,26 @@ createPlatform(1040,290,100,20)
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-createCannon("right",100,25000)
-createCannon("right",150,25000)
-createCannon("right",200,25000)
-createCannon("right",250,25000)
-createCannon("right",300,25000)
-createCannon("right",350,25000)
-createCannon("right",400,25000)
-createCannon("right",450,25000)
-createCannon("right",500,25000)
-createCannon("right",550,25000)
-createCannon("right",600,25000)
-createCannon("right",650,25000)
-createCannon("right",700,25000)
-createCannon("right",750,25000)
-createCannon("right",800,25000)
-createCannon("right",850,25000)
-createCannon("right",900,25000)
-
+createCannon("right",100,30000)
+createCannon("right",150,30000)
+createCannon("right",200,30000)
+createCannon("right",250,30000)
+createCannon("right",300,30000)
+createCannon("right",350,30000)
+createCannon("right",400,30000)
+createCannon("right",450,30000)
+createCannon("right",500,30000)
+createCannon("right",550,30000)
+createCannon("right",600,30000)
+createCannon("right",650,30000)
+createCannon("right",700,30000)
+createCannon("right",750,30000)
+createCannon("right",800,30000)
+createCannon("right",850,30000)
+createCannon("right",900,30000)
+createCannon("bottom",850,750)
+createCannon("bottom",1150,750)
+createCannon("left",650,1750)
 
 
 
